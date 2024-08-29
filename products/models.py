@@ -1,5 +1,5 @@
 from django.db import models
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 
 
@@ -47,4 +47,4 @@ class File(models.Model):
         db_table = 'files'
         verbose_name = _('file')
         verbose_name_plural = _('files')
-        
+
