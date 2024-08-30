@@ -12,7 +12,7 @@ class CategorySerializer(serializers.ModelSerializer):
 class FileSerializer(serializers.ModelSerializer):
     class Meta:
         model = File
-        fields = ('title' , 'file')
+        fields = ('id','title' , 'file' , 'file_type')
 
 
 # Method 1 
